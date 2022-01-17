@@ -2,6 +2,8 @@ import "./App.css";
 import React from "react"; 
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./components/Navbar";
+
 
 class App extends React.Component {
   render() {
@@ -10,7 +12,7 @@ class App extends React.Component {
       <Router>
         <Navbar />
         <Switch> 
-          
+
         </Switch>
         <Footer />
       </Router>
