@@ -1,11 +1,14 @@
 import "./App.css";
 import React from "react"; 
+import Footer from "./components/Footer";
+
 class App extends React.Component {
   render() {
     return (
       <div className="test">
-        hello from react
+        <Footer />
       </div>
+
     );
   }
 }
